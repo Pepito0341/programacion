@@ -31,10 +31,10 @@ system("cls")
 # print("Su promedio es ", total/(i+1))
 # e = int(input("ingrese un numero entero: "))
 # for i in range(1,e+1):
-#     if i% 2:
-#         print(f"El numero {i} es impar")
-#     else:
-#         print("El numero es par")
+    # if i% 2:
+    #     print(f"El numero {i} es impar")
+    # else:
+    #     print("El numero es par")
 # pal=input("ingrese su nombre")
 # total=0
 # for i in pal:
@@ -53,16 +53,16 @@ system("cls")
 #     else:
 #         print(f"Le quedan {cont} intentos")
 #         cont=cont-1
-numero = random.randint(1,10)
+# numero = random.randint(1,10)
 
-for i in range(5):
-    c=input("ingrese un numero entre el 1 y el 10")
-    if c==numero:
-        print("felicidades adivinaste el numero")
-        break
-    elif c<numero:
-        print("el numero esta muy bajo")
-    elif c> numero:
-        print("el numero esta muy alto")
-    else:
-        print("no adivino")
+# for i in range(5):
+#     c=int(input("ingrese un numero entre el 1 y el 10"))
+#     if c==numero:
+#         print("felicidades adivinaste el numero")
+#         break
+#     elif c<numero:
+#         print("el numero esta muy bajo")
+#     elif c> numero:
+#         print("el numero esta muy alto")
+#     else:
+#         print("no adivino")
